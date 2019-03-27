@@ -25,7 +25,7 @@ public class HelloController {
     public ModelAndView sel1(){
         ModelAndView view = new ModelAndView();
 
-        view.addObject("hello1","he452");
+        view.addObject("hello1","h852");
         return  view;
     }
 }
