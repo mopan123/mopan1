@@ -1,5 +1,5 @@
 server:
-  port: 1236
+  port: 12236
 spring:
       mvc:
             static-path-pattern: /**
