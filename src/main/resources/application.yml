@@ -1,0 +1,13 @@
+server:
+  port: 1236
+spring:
+      mvc:
+            static-path-pattern: /**
+      resources:
+            static-locations: classpath:/static/
+      thymeleaf:
+            prefix: classpath:/templates/
+            suffix: .html
+            cache: false #关闭缓存
+
+
